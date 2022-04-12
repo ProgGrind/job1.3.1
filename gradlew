@@ -99,7 +99,11 @@ location of your Java installation."
     fi
 else
     JAVACMD="java"
+<<<<<<< HEAD
     which java >/dev/null 2>&1 && die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+=======
+    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+>>>>>>> fbcd3d7 (Code was optimized. Counting for 11 minutes/hours was added/)
 
 Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation."
